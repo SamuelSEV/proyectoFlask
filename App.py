@@ -63,4 +63,7 @@ def borrar(id):
     return redirect(url_for('Index'))
 
 if __name__ == '__main__':
-    app.run(port = 5000, debug = True)
+    const PORT = process.env.PORT || '5000'
+    app.express()
+    app.set("port", PORT)
+    app.run(PORT, debug = True)
