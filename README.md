@@ -2,6 +2,7 @@
 Proyecto flask administrador de vuelos
 ### Requisitos
 Necesitamos una bd mysql que la encontrareis en el archivo vuelosflask.sql
+Necesitamos libreria  libmysqlcliente-dev
 
 Necesitamos instalar los siguiente paquetes flask
 ```
